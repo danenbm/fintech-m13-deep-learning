@@ -14,7 +14,7 @@ Specifically, it carries out the following steps:
 This Jupyter notebook makes use of the following Python libraries:
 * Pandas
 * TensorFlow 2.0
-* Keras (included high-level API for TensorFlow)
+* Keras (high-level API for TensorFlow)
 
 ---
 
@@ -54,6 +54,7 @@ _________________________________________________________________
 ```
 #### Evaluation Results with Test Data
 ```
+Original Model Results
 268/268 - 0s - loss: 0.5545 - accuracy: 0.7294
 Loss: 0.554536759853363, Accuracy: 0.7294460535049438
 ```
@@ -79,6 +80,7 @@ Non-trainable params: 0
 ```
 #### Evaluation Results with Test Data
 ```
+Alternative Model 1 Results
 268/268 - 0s - loss: 0.5501 - accuracy: 0.7299
 Loss: 0.5501484274864197, Accuracy: 0.729912519454956
 ```
@@ -103,6 +105,7 @@ _________________________________________________________________
 ```
 #### Evaluation Results with Test Data
 ```
+Alternative Model 2 Results
 268/268 - 0s - loss: 0.5626 - accuracy: 0.7293
 Loss: 0.5626142621040344, Accuracy: 0.7293294668197632
 ```
